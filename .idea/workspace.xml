@@ -20,6 +20,14 @@
   <component name="FavoritesManager">
     <favorites_list name="grocery" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1608" />
     <option name="y" value="-8" />
@@ -300,6 +308,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="46" selection-start="453" selection-end="453" vertical-scroll-proportion="-0.23395722">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 
