@@ -1,0 +1,36 @@
+body{
+    text-align:center;
+    background-color: #d3d3d3;
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#grocery-app{
+    background-color: #ffffff;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 600px;
+}
+#groceries{
+    text-align: left;
+}
+.each-item{
+    display: inline;
+}
+li{
+   padding: 8px 2px;
+   border-bottom: #d3d3d3
+}
+.destory-item{
+    display: inline;
+   float: right;
+    padding-right: 50px;
+}
+.destory-item a{
+  text-decoration: none;
+}
+
+
