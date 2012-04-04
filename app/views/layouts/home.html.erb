@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grocery</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="grocery-app">
+  <header>
+    <h1>My Grocery List</h1>
+  </header>
+  <div class="content">
+    <div class="create-item">
+      <input class="new-item" placeholder="Add grocery item here" type="text">
+      <input class="add-item" type="button" value="Add to list">
+    </div>
+    <div id="groceries">
+      <ol class="grocery-list">
+
+      </ol>
+    </div>
+  </div>
+</div>
+<%= yield %>
+</body>
+</html>

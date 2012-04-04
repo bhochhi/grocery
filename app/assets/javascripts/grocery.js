@@ -24,12 +24,16 @@ $(function () {
         el:$("#grocery-app"),
         events:{
             "click .add-item":"addOneItem",
-            "click .check-item":"toggleBought",
+            "click .check-item":"togglePurchased",
             "click .destory-item a":"deleteItem"
         },
-
         addOneItem:function () {
             if ($(".new-item").val()) {
+                Groceries.create(
+                    {
+                       name:$(".new-item").val,
+                       purchased:false
+                    });
                 $(".grocery-list").append("<li><input class='check-item' type='checkbox'><div class='each-item'>" + $(".new-item").val() + "</div><div class='destory-item'><a href='#'>[X]</a></div></li>");
             }
             else
@@ -39,7 +43,7 @@ $(function () {
 
                    alert("Your item will be deleted");
         },
-        toggleBought:function () {
+        togglePurchased:function () {
             alert("Got it");
         }
 
